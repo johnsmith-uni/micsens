@@ -30,7 +30,7 @@ The Arduino continuously sends **raw sensor values only** via serial
 2. run
  python micsens_logger.py
 
-# A CSV file will be created in the logs/ directory.
+### A CSV file will be created in the logs/ directory.
 
 Stopping the Program
 
@@ -51,7 +51,7 @@ The microphone board includes a small trimmer screw:
 	•	Turn clockwise → decrease sensitivity
 	•	Turn counter-clockwise → increase sensitivity
 
-## Important:
+### Important:
 The sensor is highly sensitive. If set too high, it may respond to
 human voices or distant environmental sounds.
 Sensitivity tuning is very sharp and should be adjusted carefully
